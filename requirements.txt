@@ -1,0 +1,2 @@
+# Required only when reading or writing XLSX files. CSV works with Python's standard library.
+openpyxl>=3.1,<4

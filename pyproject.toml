@@ -1,0 +1,12 @@
+[project]
+name = "us-address-normalizer"
+version = "0.1.0"
+description = "Create geocoder-ready USPS-style address columns from CSV and XLSX files."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "openpyxl>=3.1,<4",
+]
+
+[tool.uv]
+package = false
